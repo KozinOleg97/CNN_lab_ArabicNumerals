@@ -51,6 +51,7 @@ def read(strDatas, zn):
 def main():
     #Running.train(listTrain, listTest, 1)
     #Running.test(listTest)
+    history = None
     num_epochs = 1
     layout = [
         [sg.Button("Обучить"), sg.Button("Распознать")],
